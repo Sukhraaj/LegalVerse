@@ -12,3 +12,14 @@ for(let i = 0; i < str3.length; i++){
     }
 }
 console.log(str4)
+
+
+let a = 'bookbook'
+let b = ''
+
+for(let i = 0; i < a.length; i++){
+    if(!b.includes(a[i])){
+        b += a[i]
+    }
+}
+console.log(b)
