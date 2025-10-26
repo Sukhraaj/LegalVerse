@@ -32,3 +32,13 @@ for(let i = n; i > 0; i--){
     fact = fact * i
 }
 console.log(fact)
+
+
+let num = 5
+let factorial = 1
+
+while(num>0){
+    factorial = factorial * num
+    num-- 
+}
+console.log(factorial)
