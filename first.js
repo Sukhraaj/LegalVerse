@@ -42,3 +42,15 @@ while(num>0){
     num-- 
 }
 console.log(factorial)
+
+
+let number = 567234
+let rev = 0 
+let rem = 0
+
+for(;number > 0;){
+    rem = number%10
+    rev = rev * 10 + rem
+    number = Math.floor(number/10)
+}
+console.log(rev)
