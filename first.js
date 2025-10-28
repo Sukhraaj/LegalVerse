@@ -55,12 +55,21 @@ for(;number > 0;){
 }
 console.log(rev)
 
-let digit = 7
-for(i = 2;i < digit;i++){
-    if(i%digit == 0){
-        console.log(`${digit} is a prime number`)
-    }else{
-        console.log(`${digit} is not a prime number`)
 
+
+
+let digit = 9
+let isPrime = true
+for(i = 2;i < digit;i++){
+    if(digit%i == 0){
+        isPrime = false
+        break
     }
+}
+
+if(isPrime == true){
+    console.log(`${digit} is a prime number`)
+}
+else{
+    console.log(`${digit} is not a prime number`)
 }
