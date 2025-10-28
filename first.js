@@ -54,3 +54,13 @@ for(;number > 0;){
     number = Math.floor(number/10)
 }
 console.log(rev)
+
+let digit = 7
+for(i = 2;i < digit;i++){
+    if(i%digit == 0){
+        console.log(`${digit} is a prime number`)
+    }else{
+        console.log(`${digit} is not a prime number`)
+
+    }
+}
