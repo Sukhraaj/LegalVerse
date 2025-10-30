@@ -56,7 +56,7 @@ for(;number > 0;){
 console.log(rev)
 
 
-
+console.log("hello world")
 
 let digit = 9
 let isPrime = true
