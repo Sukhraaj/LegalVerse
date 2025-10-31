@@ -73,3 +73,21 @@ if(isPrime == true){
 else{
     console.log(`${digit} is not a prime number`)
 }
+
+
+
+async function loadData(){
+    try{
+        const response = await fetch('https://dummyjson.com/products')
+        const data = await response.json()
+        console.log(data.products.map( p => p.title))
+    }
+    catch(error){
+        console.error(error)
+    }
+    finally{
+        console.log("Runs Successfully")
+    }
+}
+
+loadData()
