@@ -91,3 +91,5 @@ async function loadData(){
 }
 
 loadData()
+
+console.log("yo guys")
